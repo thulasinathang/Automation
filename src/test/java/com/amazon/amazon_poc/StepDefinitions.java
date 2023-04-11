@@ -113,6 +113,7 @@ public class StepDefinitions {
 		String actualErrorMessage = loginpage.getErrorMsg(scenario);
 		kw.compareResult(expectedErrorHeading, actualErrorHeading, ErrorHeadingValidationfailureMsg);
 		kw.compareResult(expectedErrorMsg, actualErrorMessage, ErrormsgValidationfailureMsg);
+		System.out.println("Testing");
 
 	}
 
